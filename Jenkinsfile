@@ -66,7 +66,6 @@ pipeline {
                         )
                     if (response.status != 200) {
                         error("Smoke Test filed against canary")
-                    )
                     }
                 }
             }
